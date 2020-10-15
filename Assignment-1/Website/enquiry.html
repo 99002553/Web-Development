@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry</title>
+    <style>
+        body{
+           background-color: lightgray;
+           color:chocolate;
+           }
+           p{
+            text-align: left;
+            color:purple;
+           }
+           h1{
+               text-align: center;
+               border: 2px purple;
+               color:purple;
+               padding: 0px;
+               margin: 20px;
+           }
+           h2{
+                 text-align: center;
+                 border: 2px purple;
+                 color:purple;
+                 padding: 0px;
+                 margin: 20px;
+             }
+             h3{
+                 text-align: left;
+                 border: 2px purple;
+                 color:purple;
+                 padding: 0px;
+                 margin: 20px;
+             }
+           a{
+           width:120px;
+           height:50px;
+           background-color:blueviolet;
+           color:white;
+           padding:0px;
+           margin:20px;
+           font-size:20pt;
+       }
+       a:hover
+       {
+           background-color:teal;
+       }
+       img{
+           margin:15px;
+           padding:0px;
+           display:inline-block
+       }
+       div{
+             width:30%;
+             height:400px;
+             
+             margin-left: 20px;
+             margin-bottom:30px;
+             display:inline-block;
+         }
+       nav{
+           background-color:blueviolet;
+           color:skyblue;
+           padding:0px;
+           margin: 20px;
+           text-align:center;
+       }
+       section{
+           text-align:center;
+       }
+       footer{
+           bottom:0px;/*makes the content to be at the bottom of the page irrespecive of the content*/
+           text-align:center;
+           position:fixed;/*Excludes the flow of the document and will make the element visible all the time*/
+           width:100%;
+           color:whitesmoke;
+           background-color:gray;
+       }
+       
+   </style>
+</head>
+<body>
+    <h1> White Orchird Resort</h1>
+    <header>
+        <nav>
+            <a href="../Website/homepage.html">Home</a>
+            <a href="../Website/about.html">About</a>
+            <a href="../Website/rooms.html">Rooms</a>
+            <a href="../Website/Facilities.html">Facilities</a>
+            <a href="../Website/enquiry.html">Enquiry</a>
+        </nav>
+    </header>
+    <section>
+        <h2>Resort Booking</h2>
+        <hr/>
+    </section>
+    <section>
+        <form>
+            <p>Enter Your Name-<input type="text" placeholder="Enter Your Name" id="name"></p>
+            <p>Enter Your email-<input type="email" placeholder="Enter Your email" id="email"></p>
+            <p>Enter Your Date of checkin-<input type="date" placeholder="Enter Your Date of checkin" id="checkin"></p>
+            <p>Enter Your phone-<input type="tel" placeholder="Enter Your phone" id="phone"></p>
+            <p>Number of days of Stay-<input type="number" placeholder="Number of days of Stay" min="1" max="5" id="Stay"></p>
+            <p>
+                <h3>Additional Facilities</h3>
+            </p>
+            <p>
+                Food Options:<br/>
+                <input type="checkbox">Veg
+                <input type="checkbox">Non-Veg  
+            </p>
+            <p>
+                LifeStyle Options:<br/>
+                <input type="checkbox">gym
+                <input type="checkbox">pool
+                <input type="checkbox">Drinks
+
+            </p>
+            <p>
+                Travel Options:<br/>
+                <input type="checkbox">Pick-Up
+                <input type="checkbox">Drop
+            </p>
+            <p><button type="button">Register</button></p>
+            
+        </form>
+    <footer>
+        <hr />
+        <i>&copy;Copyrights sahana.Inc-2020</i>
+    </footer>
+    
+</body>
+</html>
